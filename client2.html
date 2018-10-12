@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>c2 - SDP TEST</title>
+</head>
+<body>
+  <!--  Sends video to client1 -->
+
+  <h1>Peer2: Bob (sends video)</h1>
+
+  <h2>Offer SDP</h2>
+  <textarea id="offerArea" rows="8" cols="100">
+  </textarea>
+  <br/>
+
+  <h2>Local Description (Send this to the remote peer!)</h2>
+  <textarea id="localDescription" rows="8" cols="100">
+  </textarea>
+  <br/>
+
+  <h2>Answer SDP</h2>
+  <textarea id="answerArea" rows="8" cols="100">
+  </textarea>
+  <br/>
+
+  <h2>Remote Description (Copy other's offer here!)</h2>
+  <textarea id="remoteDescription" rows="8" cols="100">
+  </textarea>
+  <br/>
+
+  <button type="button" onclick="setOffer()">Go!</button>
+
+  <script src="./client2.js"></script>
+</body>
+</html>
